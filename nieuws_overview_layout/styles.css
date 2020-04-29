@@ -1,0 +1,200 @@
+.content-header {
+  background-color: #fafafa !important;
+}
+
+.jumbotron {
+  margin-bottom: 0 !important;
+}
+
+.jumbotron p {
+  font-weight: 600;
+}
+
+.header-title {
+  font-weight: 700;
+  color: #658089;
+}
+
+#filter-button,
+#more-button {
+  color: #b8b8b8;
+  border-color: #b8b8b8;
+}
+
+#more-button {
+  display: none;
+}
+
+.articles {
+  box-shadow: 0px 0px 10px #c3c3c3;
+  border-radius: 5px;
+  text-align: center;
+  min-height: 370px;
+  position: relative;
+}
+
+.articles:hover > .article-img-container .article-img {
+  opacity: 0.5;
+  transition: all ease-in-out 300ms;
+}
+
+.article-img-container {
+  background: #61d4b3;
+}
+
+.article-img {
+  transition: all ease-in-out 300ms;
+}
+
+/* .articles:hover > .article-body .article-icon {
+  background: #ffffff;
+  transition: all ease-in-out 300ms;
+} */
+
+
+.article-icon {
+  width: 50px;
+  height: 50px;
+  background: #61d4b3;
+  position: absolute;
+  left: 50%;
+  margin-left: -25px;
+  top: -25px;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  transition: all ease-in-out 300ms;
+}
+
+/* .articles:hover > .article-body .article-icon i {
+  color: #61d4b3;
+  transition: all ease-in-out 300ms;
+} */
+
+.article-icon i {
+  font-size: 20px;
+  color: #fff;
+  padding-top: 10px;
+  transition: all ease-in-out 300ms;
+}
+
+.article-img-container,
+.article-img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.articles:hover > .article-body .article-title a {
+  color: #61d4b3;
+  text-emphasis: none;
+  transition: all ease-in-out 300ms;
+}
+
+.article-title a {
+  color: #68878a;
+  transition: all ease-in-out 300ms;
+}
+
+.article-title a:hover {
+  text-decoration: none;
+  transition: all ease-in-out 300ms;
+  
+}
+
+.article-body {
+  position: relative;
+}
+
+.article-category {
+  color: #61d4b3;
+  text-decoration: underline;
+}
+
+.article-date {
+  color: #5b5b5b;
+  font-weight: 300;
+}
+
+.article-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+/**
+*
+* MEDIA QUERIES
+*
+**/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .articles {
+    min-height: 400px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .articles {
+    min-height: 400px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Medium devices (landscape tablets, 600x and up) */
+@media only screen and (min-width: 600px) {
+  .articles {
+    min-height: 400px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 599px) {
+  .jumbotron {
+    text-align: center;
+  }
+
+  #filter-button {
+    margin: 0 auto;
+    display: block;
+  }
+
+  #more-button {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .articles {
+    min-height: 400px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Extra small devices (phones, 575px and down) */
+@media only screen and (max-width: 575px) {
+  .articles {
+    min-height: 500px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+  .articles {
+    min-height: 400px;
+    margin-bottom: 50px;
+  }
+}
+
+
+
+
+
+
+
